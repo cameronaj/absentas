@@ -2,7 +2,9 @@
 
 define('AUTHORS',"Andrew Cameron, Huey Hum, Katie Piette, Yacoub Seyni, and Andrew Kraft");
 
-define('BASE_PATH','/home/ubuntu/workspace');
+//define('BASE_PATH','/home/ubuntu/workspace');
+
+define('BASE_PATH','public/');
 
 define('WEB_PATH', BASE_PATH . "/public");
 
