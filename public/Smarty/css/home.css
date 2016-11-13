@@ -1,0 +1,31 @@
+
+
+#title{
+    margin-top: 4%;
+}
+
+#description{
+    margin-top: 4%;
+}
+
+#lessButton{
+    margin-top: 4%;
+}
+
+#moreButtons{
+    border: solid 0.5px limegreen;
+    border-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin-top: 4%;
+}
+
+@media only screen and (max-height: 650px) {
+    #downloadMsg {
+        display: none;
+    }
+}
+
+form{
+    visibility: hidden;
+}

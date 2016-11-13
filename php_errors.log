@@ -1,0 +1,409 @@
+[12-Nov-2016 20:09:54 UTC] PHP Warning:  fopen(sample_flac.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 9
+[12-Nov-2016 20:09:54 UTC] PHP Stack trace:
+[12-Nov-2016 20:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:09:54 UTC] PHP   2. fopen() /home/ubuntu/workspace/public/index.php:9
+[12-Nov-2016 20:09:54 UTC] PHP Warning:  filesize(): stat failed for sample_flac.flac in /home/ubuntu/workspace/public/index.php on line 10
+[12-Nov-2016 20:09:54 UTC] PHP Stack trace:
+[12-Nov-2016 20:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:09:54 UTC] PHP   2. filesize() /home/ubuntu/workspace/public/index.php:10
+[12-Nov-2016 20:09:54 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/public/index.php on line 11
+[12-Nov-2016 20:09:54 UTC] PHP Stack trace:
+[12-Nov-2016 20:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:09:54 UTC] PHP   2. fread() /home/ubuntu/workspace/public/index.php:11
+[12-Nov-2016 20:09:54 UTC] PHP Warning:  curl_setopt(): supplied argument is not a valid File-Handle resource in /home/ubuntu/workspace/public/index.php on line 22
+[12-Nov-2016 20:09:54 UTC] PHP Stack trace:
+[12-Nov-2016 20:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:09:54 UTC] PHP   2. curl_setopt() /home/ubuntu/workspace/public/index.php:22
+[12-Nov-2016 20:10:00 UTC] PHP Warning:  fopen(sample_flac.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 9
+[12-Nov-2016 20:10:00 UTC] PHP Stack trace:
+[12-Nov-2016 20:10:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:10:00 UTC] PHP   2. fopen() /home/ubuntu/workspace/public/index.php:9
+[12-Nov-2016 20:10:00 UTC] PHP Warning:  filesize(): stat failed for sample_flac.flac in /home/ubuntu/workspace/public/index.php on line 10
+[12-Nov-2016 20:10:00 UTC] PHP Stack trace:
+[12-Nov-2016 20:10:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:10:00 UTC] PHP   2. filesize() /home/ubuntu/workspace/public/index.php:10
+[12-Nov-2016 20:10:00 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/public/index.php on line 11
+[12-Nov-2016 20:10:00 UTC] PHP Stack trace:
+[12-Nov-2016 20:10:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:10:00 UTC] PHP   2. fread() /home/ubuntu/workspace/public/index.php:11
+[12-Nov-2016 20:10:00 UTC] PHP Warning:  curl_setopt(): supplied argument is not a valid File-Handle resource in /home/ubuntu/workspace/public/index.php on line 22
+[12-Nov-2016 20:10:00 UTC] PHP Stack trace:
+[12-Nov-2016 20:10:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:10:00 UTC] PHP   2. curl_setopt() /home/ubuntu/workspace/public/index.php:22
+[12-Nov-2016 20:11:34 UTC] PHP Warning:  require_once(private/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/hello-world.php on line 4
+[12-Nov-2016 20:11:34 UTC] PHP Stack trace:
+[12-Nov-2016 20:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/hello-world.php:0
+[12-Nov-2016 20:11:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'private/init.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/hello-world.php on line 4
+[12-Nov-2016 20:11:34 UTC] PHP Stack trace:
+[12-Nov-2016 20:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/hello-world.php:0
+[12-Nov-2016 20:26:16 UTC] PHP Warning:  require_once(init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 5
+[12-Nov-2016 20:26:16 UTC] PHP Stack trace:
+[12-Nov-2016 20:26:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 20:26:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'init.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 5
+[12-Nov-2016 20:26:16 UTC] PHP Stack trace:
+[12-Nov-2016 20:26:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[12-Nov-2016 21:01:13 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 12 "function(){document.getElementById('formUpload').submit();"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 12
+[12-Nov-2016 21:04:31 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 27 "{{!--<form action="upload.php" id="formUpload" method="post" enctype="multipart/form-data">--}}"  - Unexpected "--" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 27
+[12-Nov-2016 21:04:58 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 27 "{{!--<form action="upload.php" id="formUpload" method="post" enctype="multipart/form-data">--}}"  - Unexpected "--" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 27
+[12-Nov-2016 22:36:29 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 32 "{{!--<form action="upload.php" id="formUpload" method="post" enctype="multipart/form-data">--}}"  - Unexpected "--" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 32
+[12-Nov-2016 23:49:04 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home/ubuntu/workspace/public/upload.php on line 31
+[12-Nov-2016 23:49:15 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home/ubuntu/workspace/public/upload.php on line 31
+[12-Nov-2016 23:49:16 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home/ubuntu/workspace/public/upload.php on line 31
+[13-Nov-2016 01:10:06 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 33 "<div class="row alert alert-danger .col-md-4" role="alert">" unknown function "if" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 33
+[13-Nov-2016 01:10:15 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 33 "<div class="row alert alert-danger .col-md-4" role="alert">" unknown function "if" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 33
+[13-Nov-2016 01:10:25 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 33 "<div class="row alert alert-danger .col-md-4" role="alert">" unknown function "if" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 33
+[13-Nov-2016 01:10:45 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 32 "{if($error == true)}" unknown function "if" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 32
+[13-Nov-2016 02:08:22 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/public/upload.php on line 7
+[13-Nov-2016 02:32:15 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/upload.php on line 7
+[13-Nov-2016 02:32:35 UTC] PHP Warning:  hash(): Unknown hashing algorithm: sha128 in /home/ubuntu/workspace/public/upload.php on line 16
+[13-Nov-2016 02:32:35 UTC] PHP Stack trace:
+[13-Nov-2016 02:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/upload.php:0
+[13-Nov-2016 02:32:35 UTC] PHP   2. hash() /home/ubuntu/workspace/public/upload.php:16
+[13-Nov-2016 02:36:11 UTC] PHP Parse error:  syntax error, unexpected '$target_dir' (T_VARIABLE) in /home/ubuntu/workspace/public/upload.php on line 16
+[13-Nov-2016 02:36:56 UTC] PHP Parse error:  syntax error, unexpected '$target_dir' (T_VARIABLE) in /home/ubuntu/workspace/public/upload.php on line 16
+[13-Nov-2016 02:37:32 UTC] PHP Fatal error:  Uncaught  --> Smarty: Call of unknown method 'assgin'. <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php on line 858
+[13-Nov-2016 03:58:31 UTC] PHP Warning:  basename() expects at most 2 parameters, 3 given in /home/ubuntu/workspace/public/upload.php on line 18
+[13-Nov-2016 03:58:31 UTC] PHP Stack trace:
+[13-Nov-2016 03:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/upload.php:0
+[13-Nov-2016 03:58:31 UTC] PHP   2. basename() /home/ubuntu/workspace/public/upload.php:18
+[13-Nov-2016 03:58:31 UTC] PHP Warning:  substr() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/public/upload.php on line 18
+[13-Nov-2016 03:58:31 UTC] PHP Stack trace:
+[13-Nov-2016 03:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/upload.php:0
+[13-Nov-2016 03:58:31 UTC] PHP   2. substr() /home/ubuntu/workspace/public/upload.php:18
+[13-Nov-2016 03:58:31 UTC] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home/ubuntu/workspace/public/upload.php on line 22
+[13-Nov-2016 03:58:31 UTC] PHP Stack trace:
+[13-Nov-2016 03:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/upload.php:0
+[13-Nov-2016 03:58:31 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/public/upload.php:22
+[13-Nov-2016 03:58:31 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUwGyLA' to '/home/ubuntu/workspace/public/uploads/' in /home/ubuntu/workspace/public/upload.php on line 22
+[13-Nov-2016 03:58:31 UTC] PHP Stack trace:
+[13-Nov-2016 03:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/upload.php:0
+[13-Nov-2016 03:58:31 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/public/upload.php:22
+[13-Nov-2016 03:58:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/upload.php on line 18
+[13-Nov-2016 03:59:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/upload.php on line 18
+[13-Nov-2016 03:59:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/upload.php on line 18
+[13-Nov-2016 03:59:37 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/upload.php on line 18
+[13-Nov-2016 03:59:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/upload.php on line 19
+[13-Nov-2016 03:59:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/upload.php on line 19
+[13-Nov-2016 05:01:59 UTC] PHP Warning:  readfile(f44a974ec5a412ac.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 30
+[13-Nov-2016 05:01:59 UTC] PHP Stack trace:
+[13-Nov-2016 05:01:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 05:01:59 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:30
+[13-Nov-2016 05:02:22 UTC] PHP Warning:  readfile(f44a974ec5a412ac.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 30
+[13-Nov-2016 05:02:22 UTC] PHP Stack trace:
+[13-Nov-2016 05:02:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 05:02:22 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:30
+[13-Nov-2016 05:40:09 UTC] PHP Warning:  readfile(2ced58f1639f400f.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 05:40:09 UTC] PHP Stack trace:
+[13-Nov-2016 05:40:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 05:40:09 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 05:48:33 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/home.tpl"  on line 44 "{elif $message}" unknown tag "elif" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 44
+[13-Nov-2016 05:51:14 UTC] PHP Warning:  readfile(ab7191a651360bb0.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 05:51:14 UTC] PHP Stack trace:
+[13-Nov-2016 05:51:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 05:51:14 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 05:54:07 UTC] PHP Warning:  readfile(b018553b90208900.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 05:54:07 UTC] PHP Stack trace:
+[13-Nov-2016 05:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 05:54:07 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 05:57:10 UTC] PHP Warning:  readfile(c1976b0057d1eaba.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 05:57:10 UTC] PHP Stack trace:
+[13-Nov-2016 05:57:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 05:57:10 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 05:57:41 UTC] PHP Warning:  readfile(64f3cc8fb61bbb23.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 05:57:41 UTC] PHP Stack trace:
+[13-Nov-2016 05:57:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 05:57:41 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:14:35 UTC] PHP Warning:  readfile(d657892e4f786536.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:14:35 UTC] PHP Stack trace:
+[13-Nov-2016 06:14:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:14:35 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:18:21 UTC] PHP Warning:  readfile(343b2864c031afb4.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:18:21 UTC] PHP Stack trace:
+[13-Nov-2016 06:18:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:18:21 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:22:14 UTC] PHP Warning:  readfile(b20409bda9a25279.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:22:14 UTC] PHP Stack trace:
+[13-Nov-2016 06:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:22:14 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:22:39 UTC] PHP Warning:  readfile(829ebe8948d0b487.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:22:39 UTC] PHP Stack trace:
+[13-Nov-2016 06:22:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:22:39 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:22:57 UTC] PHP Warning:  readfile(309ba6d6c8d092a4.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:22:57 UTC] PHP Stack trace:
+[13-Nov-2016 06:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:22:57 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:24:00 UTC] PHP Warning:  readfile(d48ffadae1dc79b2.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:24:00 UTC] PHP Stack trace:
+[13-Nov-2016 06:24:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:24:00 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:24:50 UTC] PHP Warning:  readfile(266aad3ecef6e5cd.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:24:50 UTC] PHP Stack trace:
+[13-Nov-2016 06:24:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:24:50 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:25:29 UTC] PHP Warning:  readfile(15f1cb99828debb0.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:25:29 UTC] PHP Stack trace:
+[13-Nov-2016 06:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:25:29 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:25:46 UTC] PHP Warning:  readfile(0182aeeaac16e58c.flac): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 9
+[13-Nov-2016 06:25:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:25:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 06:25:46 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:9
+[13-Nov-2016 06:28:04 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:28:48 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:28:49 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:28:50 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:29:13 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:29:26 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:29:40 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:29:45 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:30:02 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 06:43:54 UTC] PHP Warning:  Illegal string offset 'no1' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 65
+[13-Nov-2016 06:43:54 UTC] PHP Stack trace:
+[13-Nov-2016 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:43:54 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:43:54 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:43:54 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:43:54 UTC] PHP Warning:  Illegal string offset 'no1' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 66
+[13-Nov-2016 06:43:54 UTC] PHP Stack trace:
+[13-Nov-2016 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:43:54 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:43:54 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:43:54 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:43:54 UTC] PHP Warning:  Illegal string offset 'no2' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 68
+[13-Nov-2016 06:43:54 UTC] PHP Stack trace:
+[13-Nov-2016 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:43:54 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:43:54 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:43:54 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:43:54 UTC] PHP Warning:  Illegal string offset 'no2' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 69
+[13-Nov-2016 06:43:54 UTC] PHP Stack trace:
+[13-Nov-2016 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:43:54 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:43:54 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:43:54 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:43:54 UTC] PHP Warning:  Illegal string offset 'no3' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 71
+[13-Nov-2016 06:43:54 UTC] PHP Stack trace:
+[13-Nov-2016 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:43:54 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:43:54 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:43:54 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:43:54 UTC] PHP Warning:  Illegal string offset 'no3' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 72
+[13-Nov-2016 06:43:54 UTC] PHP Stack trace:
+[13-Nov-2016 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:43:54 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:43:54 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:43:54 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:43:54 UTC] PHP Warning:  Illegal string offset 'no4' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 74
+[13-Nov-2016 06:43:54 UTC] PHP Stack trace:
+[13-Nov-2016 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:43:54 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:43:54 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:43:54 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:43:54 UTC] PHP Warning:  Illegal string offset 'no4' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 75
+[13-Nov-2016 06:43:54 UTC] PHP Stack trace:
+[13-Nov-2016 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:43:54 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:43:54 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:43:54 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:28 UTC] PHP Warning:  Illegal string offset 'n1' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 68
+[13-Nov-2016 06:45:28 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:28 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:28 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:28 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:28 UTC] PHP Warning:  Illegal string offset 'n1' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 69
+[13-Nov-2016 06:45:28 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:28 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:28 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:28 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:28 UTC] PHP Warning:  Illegal string offset 'n2' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 71
+[13-Nov-2016 06:45:28 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:28 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:28 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:28 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:28 UTC] PHP Warning:  Illegal string offset 'n2' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 72
+[13-Nov-2016 06:45:28 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:28 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:28 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:28 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:28 UTC] PHP Warning:  Illegal string offset 'n3' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 74
+[13-Nov-2016 06:45:28 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:28 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:28 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:28 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:28 UTC] PHP Warning:  Illegal string offset 'n3' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 75
+[13-Nov-2016 06:45:28 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:28 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:28 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:28 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:28 UTC] PHP Warning:  Illegal string offset 'n4' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 77
+[13-Nov-2016 06:45:28 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:28 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:28 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:28 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:28 UTC] PHP Warning:  Illegal string offset 'n4' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 78
+[13-Nov-2016 06:45:28 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:28 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:28 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:28 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:46 UTC] PHP Warning:  Illegal string offset 'n1' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 67
+[13-Nov-2016 06:45:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:46 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:46 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:46 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:46 UTC] PHP Warning:  Illegal string offset 'n1' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 68
+[13-Nov-2016 06:45:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:46 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:46 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:46 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:46 UTC] PHP Warning:  Illegal string offset 'n2' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 70
+[13-Nov-2016 06:45:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:46 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:46 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:46 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:46 UTC] PHP Warning:  Illegal string offset 'n2' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 71
+[13-Nov-2016 06:45:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:46 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:46 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:46 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:46 UTC] PHP Warning:  Illegal string offset 'n3' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 73
+[13-Nov-2016 06:45:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:46 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:46 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:46 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:46 UTC] PHP Warning:  Illegal string offset 'n3' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 74
+[13-Nov-2016 06:45:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:46 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:46 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:46 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:46 UTC] PHP Warning:  Illegal string offset 'n4' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 76
+[13-Nov-2016 06:45:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:46 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:46 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:46 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 06:45:46 UTC] PHP Warning:  Illegal string offset 'n4' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 77
+[13-Nov-2016 06:45:46 UTC] PHP Stack trace:
+[13-Nov-2016 06:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 06:45:46 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:13
+[13-Nov-2016 06:45:46 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 06:45:46 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:05:45 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/quiz.tpl"  on line 27 "{foreach from=questions as key=question item=answers}" missing "item" attribute <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 27
+[13-Nov-2016 07:06:07 UTC] PHP Warning:  Illegal string offset 'n1' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 69
+[13-Nov-2016 07:06:07 UTC] PHP Stack trace:
+[13-Nov-2016 07:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 07:06:07 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:15
+[13-Nov-2016 07:06:07 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 07:06:07 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:06:07 UTC] PHP Warning:  Illegal string offset 'n1' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 72
+[13-Nov-2016 07:06:07 UTC] PHP Stack trace:
+[13-Nov-2016 07:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 07:06:07 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:15
+[13-Nov-2016 07:06:07 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 07:06:07 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:06:07 UTC] PHP Warning:  Illegal string offset 'n2' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 77
+[13-Nov-2016 07:06:07 UTC] PHP Stack trace:
+[13-Nov-2016 07:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 07:06:07 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:15
+[13-Nov-2016 07:06:07 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 07:06:07 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:06:07 UTC] PHP Warning:  Illegal string offset 'n2' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 80
+[13-Nov-2016 07:06:07 UTC] PHP Stack trace:
+[13-Nov-2016 07:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 07:06:07 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:15
+[13-Nov-2016 07:06:07 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 07:06:07 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:06:07 UTC] PHP Warning:  Illegal string offset 'n3' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 85
+[13-Nov-2016 07:06:07 UTC] PHP Stack trace:
+[13-Nov-2016 07:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 07:06:07 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:15
+[13-Nov-2016 07:06:07 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 07:06:07 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:06:07 UTC] PHP Warning:  Illegal string offset 'n3' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 88
+[13-Nov-2016 07:06:07 UTC] PHP Stack trace:
+[13-Nov-2016 07:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 07:06:07 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:15
+[13-Nov-2016 07:06:07 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 07:06:07 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:06:07 UTC] PHP Warning:  Illegal string offset 'n4' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 93
+[13-Nov-2016 07:06:07 UTC] PHP Stack trace:
+[13-Nov-2016 07:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 07:06:07 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:15
+[13-Nov-2016 07:06:07 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 07:06:07 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:06:07 UTC] PHP Warning:  Illegal string offset 'n4' in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code on line 96
+[13-Nov-2016 07:06:07 UTC] PHP Stack trace:
+[13-Nov-2016 07:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/quiz.php:0
+[13-Nov-2016 07:06:07 UTC] PHP   2. Smarty_Internal_TemplateBase->display() /home/ubuntu/workspace/public/quiz.php:15
+[13-Nov-2016 07:06:07 UTC] PHP   3. Smarty_Internal_TemplateBase->fetch() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:394
+[13-Nov-2016 07:06:07 UTC] PHP   4. content_582808994c1594_03322123() /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatebase.php:188
+[13-Nov-2016 07:19:05 UTC] PHP Parse error:  syntax error, unexpected '$answers' (T_VARIABLE) in /home/ubuntu/workspace/public/quiz.php on line 9
+[13-Nov-2016 07:19:19 UTC] PHP Parse error:  syntax error, unexpected '$answers' (T_VARIABLE) in /home/ubuntu/workspace/public/quiz.php on line 9
+[13-Nov-2016 07:20:12 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 07:20:28 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/public/quiz.php on line 7
+[13-Nov-2016 07:20:40 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/public/quiz.php on line 8
+[13-Nov-2016 07:39:07 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/quiz.tpl"  on line 17 "<h3>Quiz Generated from: {message}</h3>" unknown tag "message" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 17
+[13-Nov-2016 07:56:52 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/ubuntu/workspace/public/Smarty/templates/quiz.tpl"  on line 17 "<h3>Quiz Generated from: {message}</h3>" unknown tag "message" <-- 
+  thrown in /home/ubuntu/workspace/public/Smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 17
+[13-Nov-2016 14:02:20 UTC] PHP Warning:  readfile(transcription.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 11
+[13-Nov-2016 14:02:20 UTC] PHP Stack trace:
+[13-Nov-2016 14:02:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:02:20 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:11
+[13-Nov-2016 14:18:13 UTC] PHP Warning:  readfile(../transcription.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 11
+[13-Nov-2016 14:18:13 UTC] PHP Stack trace:
+[13-Nov-2016 14:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:18:13 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:11
+[13-Nov-2016 14:19:40 UTC] PHP Warning:  readfile(../transcription.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 11
+[13-Nov-2016 14:19:40 UTC] PHP Stack trace:
+[13-Nov-2016 14:19:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:19:40 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:11
+[13-Nov-2016 14:21:12 UTC] PHP Warning:  readfile(../transcription.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 11
+[13-Nov-2016 14:21:12 UTC] PHP Stack trace:
+[13-Nov-2016 14:21:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:21:12 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:11
+[13-Nov-2016 14:22:35 UTC] PHP Warning:  readfile(../transcription.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 11
+[13-Nov-2016 14:22:35 UTC] PHP Stack trace:
+[13-Nov-2016 14:22:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:22:35 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:11
+[13-Nov-2016 14:23:28 UTC] PHP Warning:  readfile(../transcription.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 11
+[13-Nov-2016 14:23:28 UTC] PHP Stack trace:
+[13-Nov-2016 14:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:23:28 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:11
+[13-Nov-2016 14:24:49 UTC] PHP Warning:  readfile(../transcription.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 11
+[13-Nov-2016 14:24:49 UTC] PHP Stack trace:
+[13-Nov-2016 14:24:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:24:49 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:11
+[13-Nov-2016 14:25:27 UTC] PHP Warning:  readfile(../../transcription.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/download.php on line 11
+[13-Nov-2016 14:25:27 UTC] PHP Stack trace:
+[13-Nov-2016 14:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:25:27 UTC] PHP   2. readfile() /home/ubuntu/workspace/public/download.php:11
+[13-Nov-2016 14:33:45 UTC] PHP Warning:  unlink(audioFile.flac): No such file or directory in /home/ubuntu/workspace/public/download.php on line 12
+[13-Nov-2016 14:33:45 UTC] PHP Stack trace:
+[13-Nov-2016 14:33:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/download.php:0
+[13-Nov-2016 14:33:45 UTC] PHP   2. unlink() /home/ubuntu/workspace/public/download.php:12
